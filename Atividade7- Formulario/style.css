@@ -1,0 +1,50 @@
+body{
+  background-color: rgb(194, 175, 175);
+}
+main{
+  background-color: white;
+  margin: 20px auto;
+  height: fit-content;
+  width: 50%;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+h1, label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  text-align: center;
+  font-size: 30px;
+  margin: 5px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    margin: 15px;
+}
+
+label,input,textarea {
+  width: 100%;
+}
+
+.validar {
+  background-color: rgb(35, 181, 35);
+  color: white;
+  border-radius: 5px;
+  height: 30px;
+  border-color: rgb(255, 255, 255);
+  width: 70px;
+}
+#validar:hover{
+  background-color: green;
+}
+
+.error {
+  color: red;
+}
+.error-border {
+  border: 1px solid red;
+}
